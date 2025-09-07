@@ -7,7 +7,7 @@ export default function Step1() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text style={{ fontSize: 20 }}>Step 1: Introduction</Text>
-      <Button title="Next ➡️" onPress={() => router.push("//step2")} />
+      <Button title="Next ➡️" onPress={() => router.push("/onboarding/step2")} />
     </View>
   );
 }

@@ -49,7 +49,7 @@ export default function SignUp() {
       <Text style={{ marginTop: 20, textAlign: "center" }}>
         Already have an account?
       </Text>
-      <Button title="Go to Login" onPress={() => router.push("//logIn")} />
+      <Button title="Go to Login" onPress={() => router.push("/Auth/logIn")} />
     </View>
   );
 }
