@@ -1,1 +1,2 @@
 # AccommoTrack
+## Activity Purpose only
